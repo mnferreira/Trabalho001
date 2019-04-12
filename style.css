@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'nav'
+                         'header'
+                         'section'
+                         'aside'
+                         'div'
+                         'footer';
+    grid-template-areas: 15vh 15vh 15vh 15vh 15vh 15vh;
+}
+
+aside{
+    grid-area: aside;
+    background-color: #e3e3e3;
+    height: 366px;
+    display: flex;
+}
+
+div{
+    grid-area: div;
+    background-color: chartreuse;
+    height: 320px;
+    display: flex;
+}
+
+footer{
+    grid-area: footer;
+    background-color: darkorange;
+    display: flex;
+}
+
+header{
+    grid-area: header;
+    background-color: blueviolet;
+    height: 510px;
+    display: flex;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #2dcc72;
+    height: 9px;
+    display: flex;
+}
+
+section{
+    grid-area: section;
+    background-color: white;
+    height: 287px;
+    display: flex;
+}
