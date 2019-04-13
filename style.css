@@ -26,8 +26,18 @@ div{
 
 footer{
     grid-area: footer;
-    background-color: darkorange;
+    background-color: #e3e3e3;
+    height: 110px;
     display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer a{
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 11pt;
 }
 
 header{
@@ -35,6 +45,10 @@ header{
     background-color: blueviolet;
     height: 510px;
     display: flex;
+}
+
+header img{
+    width: 100vw;
 }
 
 nav{
