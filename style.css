@@ -19,6 +19,10 @@ aside{
 
 article{
     grid-area: article;
+}
+
+div{
+    grid-area: div;
     background-color: chartreuse;
     height: 320px;
     display: flex;
@@ -55,17 +59,11 @@ h1{
     color: white;
 }
 
-.divH1{
-    border
-}
-
 #hand{
     width: 375px;
     height: 431px;
     display:flex;
-    
 }
-
 nav{
     grid-area: nav;
     background-color: #2dcc72;
