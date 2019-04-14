@@ -5,7 +5,7 @@ body{
                          'header'
                          'section'
                          'aside'
-                         'div'
+                         'article'
                          'footer';
     grid-template-areas: 15vh 15vh 15vh 15vh 15vh 15vh;
 }
@@ -17,8 +17,8 @@ aside{
     display: flex;
 }
 
-div{
-    grid-area: div;
+article{
+    grid-area: article;
     background-color: chartreuse;
     height: 320px;
     display: flex;
@@ -48,11 +48,22 @@ header{
     display: flex;
 }
 
+h1{
+    z-index: 1000;
+    font-family: 'Pacifico';
+    font-size: 45px;
+    color: white;
+}
+
+.divH1{
+    border
+}
+
 #hand{
     width: 375px;
     height: 431px;
-    padding: 82px;
-    margin-left: 688px;
+    display:flex;
+    
 }
 
 nav{
