@@ -42,13 +42,17 @@ footer a{
 
 header{
     grid-area: header;
-    background-color: blueviolet;
-    height: 510px;
+    background-image: url(./img/banner.png);
+    background-size: 1365px 512px;
+    height: 511px;
     display: flex;
 }
 
-header img{
-    width: 100vw;
+#hand{
+    width: 375px;
+    height: 431px;
+    padding: 82px;
+    margin-left: 688px;
 }
 
 nav{
