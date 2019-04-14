@@ -19,10 +19,6 @@ aside{
 
 article{
     grid-area: article;
-}
-
-div{
-    grid-area: div;
     background-color: chartreuse;
     height: 320px;
     display: flex;
@@ -48,8 +44,17 @@ header{
     grid-area: header;
     background-image: url(./img/banner.png);
     background-size: 1365px 512px;
+    width: 100vw;
     height: 511px;
     display: flex;
+    justify-content: center;  
+}
+
+#handElogo{
+    width: 912px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 h1{
@@ -59,10 +64,24 @@ h1{
     color: white;
 }
 
+p{
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    color: white;
+}
+
+#notify{
+    display: flex;
+    flex-direction: column;
+}
+
 #hand{
-    width: 375px;
-    height: 431px;
+    width: 373px;
+    height: 429px;
     display:flex;
+    padding-top: 82px;
+   
+   
 }
 nav{
     grid-area: nav;
