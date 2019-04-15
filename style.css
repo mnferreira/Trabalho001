@@ -19,9 +19,107 @@ aside{
 
 article{
     grid-area: article;
-    background-color: chartreuse;
-    height: 320px;
+    background-color: white;
+    height: 400px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+article div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#citacao{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#frase1{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    font-style: italic;
+    line-height: 1.8;
+    width: 55%;
+    margin-top: 0;
+}
+
+h2{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+#fotosPessoas{
+    margin-top: 10px;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article div img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article img:hover{
+    background-color: #2dcc72;
+}
+
+#textoInteracao{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+#frase2{
+    margin-top: 0;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+
+article div a{
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+article a img{
+    margin-top: 20px;
+    width:30px;
+    height: 30px;
+    background-color: #e3e3e3;
+    border-radius: 100%;
+}
+
+article a :hover{
+    background-color: #2dcc72;
 }
 
 footer{
@@ -30,14 +128,21 @@ footer{
     height: 110px;
     display: flex;
     justify-content: center;
-    align-content: center;
 }
 
-footer a{
-    color: grey;
-    font-family: 'Montserrat', sans-serif;
+footer a {
+    color: darkgray;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-size: 11pt;
+    display: flex;
+    align-items: center;
+}
+
+#itensFooter {
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header{
@@ -53,8 +158,7 @@ header{
 #handElogo{
     width: 912px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 h1{
@@ -79,10 +183,9 @@ p{
     width: 373px;
     height: 429px;
     display:flex;
-    padding-top: 82px;
-   
-   
+    padding-top: 82px;   
 }
+
 nav{
     grid-area: nav;
     background-color: #2dcc72;
